@@ -7,7 +7,7 @@ import time
 from pathlib import Path
 
 # CONFIGURATION
-TARGET_DIR_REL = "data/temp"
+TARGET_DIR_REL = "data/all_tests"
 TIME_BUDGET = 500
 NUM_RUNS = 5
 

@@ -7,7 +7,7 @@ import subprocess
 from pathlib import Path
 
 # CONFIGURATION
-TARGET_DIR_REL = "data/temp"
+TARGET_DIR_REL = "data/all_tests"
 OUTPUT_SUBDIR = "results/rap"
 MODEL_NAME = "Qwen/Qwen2.5-Coder-7B-Instruct"
 
@@ -126,6 +126,7 @@ def process_all_files():
         for f in os.listdir(abs_target_dir)
         if f.endswith(".py") and f != "__init__.py" and not f.startswith("test_")
     ]
+    print(os.listdir(abs_target_dir))
 
     print(f"{len(all_files)} files to test.")
 

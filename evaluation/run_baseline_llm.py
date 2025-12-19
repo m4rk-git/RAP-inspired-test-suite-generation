@@ -6,7 +6,7 @@ import csv
 from pathlib import Path
 
 # CONFIGURATION
-TARGET_DIR_REL = "data/temp"
+TARGET_DIR_REL = "data/all_tests"
 OUTPUT_SUBDIR = "results/plain_llm"
 MODEL_NAME = "Qwen/Qwen2.5-Coder-7B-Instruct"
 
